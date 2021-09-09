@@ -1,0 +1,14 @@
+<soapenv:Envelope
+        xmlns:ord="http://bc.tdc.dk/ordertrigger"
+        xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <ord:updatestatus>
+            <updatestatus>
+                <orderId>18056064</orderId>
+                <referenceId>SSCR012992997</referenceId>
+                <account>273490102</account>
+                <status>CLOSED</status>
+            </updatestatus>
+        </ord:updatestatus>
+    </soapenv:Body>
+</soapenv:Envelope>
